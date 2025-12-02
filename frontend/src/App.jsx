@@ -8,8 +8,7 @@ import NoteDetailPage from "./pages/NoteDetailPage";
 
 const App = () => {
   return (
-    <div>
-      <button className="btn btn-primary">Press</button>
+    <div data-theme="abyss">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
